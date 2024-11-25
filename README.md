@@ -44,7 +44,8 @@ semente-em-movimento/
 Apresenta o projeto com uma introdução, destaques e objetivos gerais.
 Inclui uma navegação intuitiva para acessar outras páginas do site.
 Código exemplo da seção inicial da página:
-```
+
+```html
 <section>
     <div>
         <h2>Bem-vindo ao Projeto Sementes em Movimento</h2>
@@ -59,7 +60,8 @@ Código exemplo da seção inicial da página:
 Explica a motivação do projeto e como ele está alinhado aos Objetivos de Desenvolvimento Sustentável (ODS) da ONU.
 Destaca os problemas urbanos que o projeto busca resolver.
 Exemplo de código:
-```
+
+```html
 <div>
     <h2>A Motivação</h2>
     <p>Com a urbanização crescente, áreas verdes estão sendo substituídas por concreto, 
@@ -70,7 +72,8 @@ Exemplo de código:
 
 Apresenta o objetivo geral e os objetivos específicos do projeto, como aumentar a arborização e engajar a comunidade.
 Exemplo de código:
-```
+
+```html
 <ul>
     <li>Promover o uso de bicicletas e caminhadas para reduzir emissões de poluentes.</li>
     <li>Aumentar a arborização em regiões críticas das cidades.</li>
@@ -91,7 +94,7 @@ O projeto foi desenvolvido usando:
 - CSS3: Para a estilização e layout responsivo.
 - Exemplo de código CSS usado para o estilo do cabeçalho:
 
-```
+```css
 header {
     background: #4CAF50;
     color: white;
