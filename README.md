@@ -20,23 +20,18 @@ Abaixo está a estrutura básica dos arquivos e pastas:
 ```plaintext
 semente-em-movimento/
 ├── css/
-│   ├── index.css       # Estilos globais do site
-│
+│   └── index.css       # Estilos globais do site
 ├── img/
 │   ├── logo.png        # Logotipo do projeto
-│   ├── img2.jpg        # Imagens usadas nas páginas
-│   ├── img3.jpg
-│   ├── img4.jpg
-│   ├── img5.jpg
-│   ├── img6.jpg
-│
+│   ├── plantacao.jpg   # Imagem para dicas de plantação
+├── js/
+│   └── script.js       # Funcionalidades em JavaScript
 ├── public/
 │   ├── sobre.html      # Página sobre o projeto
-│   ├── objetivos.html  # Página com os objetivos do projeto
-│   ├── comoAjudar.html # Página de como ajudar
-│   ├── contato.html    # Página de contato
-│
-├── index.html          # Página inicial do site
+│   ├── objetivos.html  # Objetivos do projeto
+│   ├── comoAjudar.html # Página com dicas e formas de ajudar
+│   └── contato.html    # Página de contato
+└── index.html          # Página inicial
 ```
 ## Como Funciona o Site?
 - Página Inicial (index.html):
@@ -87,11 +82,36 @@ Mostra diferentes formas de contribuição, incluindo doações, voluntariado e 
 - Página Contato (public/contato.html):
 
 Disponibiliza um formulário simples para que os usuários possam entrar em contato.
+
+
+## Adição de JavaScript
+- Implementação de um modal de boas-vindas: Quando o usuário entra no site, uma caixa flutuante (modal) aparece dando as boas-vindas. O modal foi configurado para fechar ao clicar no botão "X" ou fora da caixa.
+
+```javascript
+window.onload = function () {
+    const modal = document.getElementById("welcome-modal");
+    const closeButton = document.querySelector(".close-button");
+
+    modal.style.display = "block";
+
+    closeButton.onclick = function () {
+        modal.style.display = "none";
+    };
+
+    window.onclick = function (event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    };
+};
+```
+
 ## Tecnologias Utilizadas
 O projeto foi desenvolvido usando:
 
 - HTML5: Para a estrutura do site.
 - CSS3: Para a estilização e layout responsivo.
+- JavaScript: Funcionalidade de modal de boas-vindas.
 - Exemplo de código CSS usado para o estilo do cabeçalho:
 
 ```css
