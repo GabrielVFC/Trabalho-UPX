@@ -87,13 +87,14 @@ footer {
 
 .close-button {
     position: absolute;
-    right: 750px;
-    font-size: 1.5rem;
+    right: 750px; /* Ajusta a distância da lateral direita */
+    font-size: 1.5rem; /* Tamanho da fonte */
     font-weight: bold;
-    color: #333;
+    color: #333; /* Cor padrão */
     cursor: pointer;
-    background: none;
-    border: none;
+    background: none; /* Remove qualquer fundo */
+    border: none; /* Remove bordas */
+    padding: 0; /* Garante que o botão não tenha preenchimento */
 }
 
 .close-button:hover {
