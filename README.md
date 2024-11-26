@@ -106,6 +106,12 @@ window.onload = function () {
 };
 ```
 
+## Vídeo: Dicas para Plantar Sementes em Casa 🌱🎥
+- Criamos um vídeo com dicas úteis para quem quer começar a plantar 
+sementes em casa e transformar seu espaço em um ambiente mais verde e 
+sustentável. No vídeo, abordamos os seguintes tópicos essenciais para garantir que 
+suas sementes germinem e cresçam de forma saudável.
+
 ## Tecnologias Utilizadas
 O projeto foi desenvolvido usando:
 
